@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .user-card {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      .user-name {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="user-card">
+      <h2 class="user-name">Felix</h2>
+      <p>Email: ivan@example.com</p>
+      <input type="text" id="Felix-product" placeholder="Введіть продукт">
+      <button onclick="addToCart(user1)">Додати до корзини</button>
+      <p>Корзина: <span id="Felix-cart"></span></p>
+    </div>
+
+    <div class="user-card">
+      <h2 class="user-name">Ira</h2>
+      <p>Email: olena@example.com</p>
+      <input type="text" id="Ira-product" placeholder="Введіть продукт">
+      <button onclick="addToCart(user2)">Додати до корзини</button>
+      <p>Корзина: <span id="Ira-cart"></span></p>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
